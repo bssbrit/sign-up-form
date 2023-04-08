@@ -48,10 +48,12 @@
               </div>
             </div>
             <div class="password">
-              <label for="password">Password</label>
-              <div>
-                <input type="text" placeholder="Password" />
-              </div>
+              <label for="userPassword">Password: </label>
+              <input id="userPassword" type="password" minlength="4"
+              maxlength="8"
+              size="8" required
+              placeholder="1234abcd" />
+              
             </div>
           </div>
           <div class="formularioDireita">
@@ -69,7 +71,7 @@
             <div class="confirmPassword">
               <label for="confirmPassword">Confirm Password</label>
               <div>
-                <input type="text" placeholder="Confirm Password" />
+                <input type="password" placeholder="Confirm Password" id="confirm_password" required>
               </div>
             </div>
           </div>
@@ -79,7 +81,7 @@
         <button class="create">Create Account</button>
         <div class="fundoFundo">
           Already have an account?
-          <button>Log in</button>
+          <button><a>Log in</a></button>
         </div>
       </div>
     </div>
