@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+.esquerda {
+  background-color: green;
+  flex: 3;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  background-image: ;
+  
+}
+
+.logo {
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #f9fafb;
+}
+
+
+.logo img{
+    width: 20vh;
+}
+
+
+
+
+
+
+
+
+
+.direita {
+  text-align: left;
+  padding-left: 5vh;
+  background-color: #f9fafb;
+  flex: 5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-items: center;
+  text-align: left;
+}
+
+.introduçãoTopo p {
+  margin: 0%;
+}
+
+.meio {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.formulario {
+  align-self: flex-start;
+  gap: 20vh;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.fundo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  paddin;
+}
+
+.create {
+  width: 20vh;
+  height: 5vh;
+}
+.fundoFundo {
+  padding-top: 5vh;
+  display: flex;
+  flex-direction: column;
+}
